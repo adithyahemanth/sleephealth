@@ -1,43 +1,21 @@
 ---
-title: "About gatsby-starter-morning-dew"
+title: ""
 slug: about-gatsby-starter-morning-dew
-cover: ./gatsby-cover.png
+cover: ./Sleepheath2.png
 disqus: true
 ---
 
-[![Build Status](https://travis-ci.org/maxpou/gatsby-starter-morning-dew.svg?branch=master)](https://travis-ci.org/maxpou/gatsby-starter-morning-dew) [![Netlify Status](https://api.netlify.com/api/v1/badges/d68027bd-19b5-44fd-a2a3-d1f05fc8201e/deploy-status)](https://app.netlify.com/sites/gatsby-starter-morning-dew/deploys) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Maintainability](https://api.codeclimate.com/v1/badges/e09f1ac1a5cdb2987a6f/maintainability)](https://codeclimate.com/github/maxpou/gatsby-starter-morning-dew/maintainability) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+> PLEASE NOTE:This study was closed on April 23, 2020, and we will no longer be collecting or reviewing data from the SleepHealth App after that date. No new participants will be enrolled and the SleepHealth app is no longer available on the App Store. As study results and publications become available, they will be posted on this site and emailed to enrolled participants.
 
 
-## gatsby-starter-morning-dew
+Welcome to SleepHealth! This is a mobile research study to investigate how your sleep is associated with general health, medical conditions, daytime alertness, and productivity.
 
-A gatsby-starter-morning-dew is a Gatsby theme/starter to build lightning-fast websites!
+This app is part of an exciting new patient-led effort to use the iPhone and Apple Watch to advance clinical research on sleep and sleep disorders and how they affect other medical conditions. It is also a personalized tool that helps you gain greater insight into your sleep habits and your general health and well-being.
 
-[Demo website.](https://maxpou.github.io/gatsby-starter-morning-dew/)
+The SleepHealth team consists of the American Sleep Apnea Association, a patient-led, non-profit organization and researchers at the University of California, San Diego.
 
-![screenshot](https://i.imgur.com/Tv4SFqT.png)
+This study is unique in that it is led by patients and allows participants to be equal partners in both the monitoring and management of their symptoms and data collected as well as helping to direct future research by participating in our community at talk.sleeptember.org.
 
+This app is designed for research and educational purposes only. You should not rely on this information as a substitute for personal medical attention, diagnosis, or treatment. If you are concerned about your health, please contact your healthcare provider immediately. Do not wait for a response from our research team.
 
-## Features
-
-- [💜 Gatsby v2](https://www.gatsbyjs.org/) / React 16
-- 🔍 SEO optimized
-- 💌 Write posts/pages in Markdown or [MDX](https://mdxjs.com/)
-  - 🎨 Code syntax highlight
-  - 📚 Multilang support (blog post)
-- 📱 Mobile Friendly (Responsive design)
-- 🌜 Dark mode
-- ✨ PWA ready
-  - ✈️ Offline support
-  - 📃 Manifest support 
-- [🔧 Fully configurable (see data/siteConfig.js)](./data/siteConfig.js)
-- 💬 Disqus support
-- 💅 css-in-js (with [styled-components](https://www.styled-components.com))
-- 🧙‍♀️ Use it as a starter or [as a theme](https://www.gatsbyjs.org/blog/2018-11-11-introducing-gatsby-themes/)
-- 🔖 Groups post with tags
-- 📊 Google Analytics support
-- 🐦 post preview image generation (Twitter, Facebook)
-- 💎 Developer tools (eslint, prettier)
-- 👷 Travis CI support
-
-
-![Lighthouse scores (locally :bowtie:)](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)
+This study will ask you to respond to surveys and perform tasks as well as rate your sleep and alertness and upload data from personal fitness or medical devices if you wish.
