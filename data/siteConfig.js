@@ -45,7 +45,7 @@ module.exports = {
       sectionName: 'Explore',
       links: [
         {
-          label: 'Blog',
+          label: 'Home',
           url: '/',
         },
         {

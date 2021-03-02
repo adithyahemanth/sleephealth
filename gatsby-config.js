@@ -8,7 +8,7 @@ module.exports = {
     description: config.siteDescription,
     ...config,
   },
-  pathPrefix: config.pathPrefix,
+  pathPrefix: '/sleephealth',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
