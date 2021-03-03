@@ -29,7 +29,8 @@
     "lh": "lighthousebot",
     "semantic-release": "semantic-release",
     "start": "gatsby develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "serve": "gastby serve --prefix-paths"
   },
   "bin": {
     "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js"
