@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f353fd51a542238d54a5.js"
+    "url": "webpack-runtime-d80ad8525a2d788db59a.js"
   },
   {
     "url": "framework-1bcdbcdd30f43763a25c.js"
   },
   {
-    "url": "app-c4ecce0396d61b2a205c.js"
+    "url": "app-5a31322f3ec8d915cab8.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b29a0066d9e2bc61bafaaacd8addb2e6"
+    "revision": "a3154c20a58cbe6ee2d3224628a99d0b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-f7968005d4116a7aa2f8.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "7400170b66f5fe3bb4e05277cdb7116b"
+    "revision": "496fd01e68a5a7f1ed3f641f9f83b846"
   },
   {
     "url": "polyfill-d0a90a918e39f7bd0bdc.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d5c726130438b3efbaf714c9d81981b8"
+    "revision": "e7c3a7535dc8ae8cf5c619872d263472"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/sleephealth`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-c4ecce0396d61b2a205c.js`))) {
+  if (!resources || !(await caches.match(`/sleephealth/app-5a31322f3ec8d915cab8.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/sleephealth/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
